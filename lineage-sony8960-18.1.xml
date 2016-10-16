@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Project: 'https://github.com/AdrianDC/lineage_development_sony8960' -->
+<!-- Manifest: 'https://github.com/LineageOS/android/tree/lineage-18.1' -->
+<!-- Repo Init: 'repoinitlineage 18.1' -->
+<!-- ROM Patcher: 'repopick 299485 299718 299719 299778 299763 299989 300012' -->
+<!-- ROM Rebaser: 'lineagesony8960rebaser' -->
+<!-- Untracked: 'lineage_development_sony8960/untracked-lineage-18.1' -->
+<manifest>
+
+  <!-- Remotes -->
+  <remote name="AdrianDC" fetch="https://github.com" revision="refs/heads/lineage-18.1" />
+
+  <!-- LineageOS Dependency Projects -->
+  <project name="LineageOS/android_device_sony_common" path="device/sony/common" />
+  <project name="LineageOS/android_hardware_sony_DASH" path="hardware/sony/DASH" />
+  <project name="LineageOS/android_hardware_sony_thermanager" path="hardware/sony/thermanager" />
+
+  <!-- SONY Vendor Projects -->
+  <project name="AdrianDC/proprietary_vendor_sony" path="vendor/sony" remote="AdrianDC" />
+
+  <!-- SONY 8960 Huashan Projects -->
+  <project name="AdrianDC/android_device_sony_huashan" path="device/sony/huashan" remote="AdrianDC" />
+  <project name="AdrianDC/android_kernel_sony_msm8960t" path="kernel/sony/msm8960t" remote="AdrianDC" />
+
+  <!-- SONY 8960 Blue Projects -->
+  <project name="AdrianDC/android_device_sony_blue-common" path="device/sony/blue-common" remote="AdrianDC" />
+  <project name="AdrianDC/android_device_sony_hayabusa" path="device/sony/hayabusa" remote="AdrianDC" />
+  <project name="AdrianDC/android_device_sony_mint" path="device/sony/mint" remote="AdrianDC" />
+  <project name="AdrianDC/android_device_sony_tsubasa" path="device/sony/tsubasa" remote="AdrianDC" />
+  <project name="AdrianDC/android_kernel_sony_msm8x60" path="kernel/sony/msm8x60" remote="AdrianDC" />
+
+  <!-- Samsung JF Projects -->
+  <project name="LineageOS/android_device_samsung_jfltexx" path="device/samsung/jfltexx" remote="github" />
+  <project name="LineageOS/android_device_samsung_jf-common" path="device/samsung/jf-common" remote="github" />
+  <project name="LineageOS/android_device_samsung_qcom-common" path="device/samsung/qcom-common" remote="github" />
+  <project name="LineageOS/android_kernel_samsung_jf" path="kernel/samsung/jf" remote="github" />
+  <project name="LineageOS/android_hardware_samsung" path="hardware/samsung" remote="github" />
+
+</manifest>
